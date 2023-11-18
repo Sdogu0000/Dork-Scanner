@@ -7,11 +7,11 @@
 This tool should be used for legal purposes only. Any malicious or illegal activities conducted with this tool are the responsibility of the user. The developers or contributors do not accept any liability arising from the misuse of this tool.
 
 
-## Usage:
-   ```bash
+## Kali/Ubuntu/Debian/Parrot/Termux Install
+   bash
    git clone https://github.com/Sdogu0000/Dork-Scanner.git
    cd Dork-Scanner
    pip install -r requirements.txt
    python main.py
-    ```
+    
 
