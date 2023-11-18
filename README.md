@@ -8,7 +8,7 @@ This tool should be used for legal purposes only. Any malicious or illegal activ
 
 
 ## Kali/Ubuntu/Debian/Parrot/Termux Install
-   bash
+   ``` bash
    git clone https://github.com/Sdogu0000/Dork-Scanner.git
    cd Dork-Scanner
    pip install -r requirements.txt
