@@ -21,7 +21,7 @@ class Search:
 
     def find_links(self, dorks):
         session = HTMLSession()
-        session.headers['user-agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
+        session.headers['user-agent'] = 'Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)'
 
         for dork in dorks:
             url = self.base_url + self.parameters.format(f"site:{self.site} {dork}")
